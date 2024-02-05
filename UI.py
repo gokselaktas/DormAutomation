@@ -4,7 +4,7 @@ from tkinter import ttk
 # Create the main window
 root = tk.Tk()
 root.title("Öğrenci Kayıt")
-
+root.geometry('300x320')
 # Create a frame for padding
 frame = tk.Frame(root, padx=10, pady=10)
 frame.pack(padx=10, pady=10)
