@@ -1,6 +1,10 @@
 import tkinter as tk
 from tkinter import ttk
 
+import pymssql
+
+
+
 # Create the main window
 root = tk.Tk()
 root.title("Öğrenci Kayıt")
